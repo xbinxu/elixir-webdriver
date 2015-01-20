@@ -31,7 +31,7 @@ defmodule WebDriver.Mixfile do
   defp deps do
     [
       {:ibrowse,   github: "cmullaparthi/ibrowse", tag: "v4.1.0"},
-      {:httpotion, "~> 0.2.4"},
+      {:httpotion, "~> 1.0"},
       {:jazz,      "~> 0.2.0"},
       {:mock,      github: "jjh42/mock", only: :test},
       {:earmark,   "~>0.1.10", only: :dev},
